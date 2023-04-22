@@ -287,7 +287,7 @@ getWeathers('London')
         console.error(error);
     });
 
-var r = getWeather('Kashmir');
+var r = getWeather('New Delhi');
 
 
 
