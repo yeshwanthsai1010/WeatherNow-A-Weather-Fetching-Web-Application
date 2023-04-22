@@ -1,0 +1,286 @@
+#sunny{
+    background: rgb(251,190,75,0.2);
+    background: linear-gradient(90deg, rgba(251,190,75,1) 0%, rgba(251,190,75,1) 30%, rgba(210,210,210,1) 100%);
+    background-size: cover;
+    padding:0;
+    margin:0;
+}
+#partlyCloudy,#lightDrizzle{
+    background: rgb(156,154,149,0.2);
+    background: linear-gradient(90deg, rgba(156,154,149,1) 0%, rgba(60,59,57,1) 31%, rgba(151,139,139,1) 100%);
+    background-size: cover;
+    padding:0;
+    margin:0;
+    color: antiquewhite;
+    :is(tr){
+        color: white;
+    }
+    :is(a){
+        color: white;
+    }
+}
+#clearNight{
+    background: rgb(5,5,5,0.2);
+    background: linear-gradient(90deg, rgba(5,5,5,1) 0%, rgba(91,89,85,1) 31%, rgba(10,10,10,1) 100%);
+    background-size: cover;
+    padding:0;
+    margin:0;
+    color: antiquewhite;
+    :is(tr){
+        color: white;
+    }
+    :is(a){
+        color: white;
+    }
+}
+#thunderstorm:before {
+    /* Other styles... */
+    animation: thunder 5s linear infinite;
+
+  }
+  
+  @keyframes thunder {
+    0% {
+      opacity: 0;
+    }
+    2% {
+      opacity: 1;
+    }
+    4% {
+      opacity: 0;
+    }
+    6% {
+      opacity: 1;
+    }
+    8% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    /* Repeat for other percentage values */
+    98% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  #thunderstorm {
+    
+
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    color: antiquewhite;
+    :is(tr){
+        color: white;
+    }
+
+      
+  }
+  
+  #thunderstorm:before {
+    content: "";
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: radial-gradient(ellipse at bottom, transparent 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0.1) 80%, rgba(255, 255, 255, 0.05) 90%, rgba(255, 255, 255, 0.01) 100%);
+    opacity: 0;
+    animation: thunder 10s cubic-bezier(0.1,0.4,0.7,0.2) infinite;
+  }
+  
+  @keyframes thunder {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    35% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  #thunderstorm-night:before {
+    /* Other styles... */
+    animation: thunder 5s linear infinite;
+
+  }
+  
+  @keyframes thunder {
+    0% {
+      opacity: 0;
+    }
+    2% {
+      opacity: 1;
+    }
+    4% {
+      opacity: 0;
+    }
+    6% {
+      opacity: 1;
+    }
+    8% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    /* Repeat for other percentage values */
+    98% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  #thunderstorm-night {
+    
+
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    color: antiquewhite;
+    :is(tr){
+        color: white;
+    }
+
+      
+  }
+  
+  #thunderstorm-night:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at bottom, transparent 0%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0.1) 80%, rgba(255, 255, 255, 0.05) 90%, rgba(255, 255, 255, 0.01) 100%);
+    opacity: 0;
+    animation: thunder 10s cubic-bezier(0.1,0.4,0.7,0.2) infinite;
+  }
+  
+  @keyframes thunder {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    10% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    35% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 1;
+    }
+    45% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    55% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 1;
+    }
+    65% {
+      opacity: 0;
+    }
+    70% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 1;
+    }
+    85% {
+      opacity: 0;
+    }
+    90% {
+      opacity: 1;
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+   
